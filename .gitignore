@@ -1,0 +1,26 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+.terraform/plugins/linux_amd64/*
+.terraform/plugins/windows_amd64/*
+
+terraform.tfstate
+terraform.tf
+
+testing.go
+testing.go_testing
+
+crash.log
